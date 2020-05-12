@@ -26,13 +26,13 @@ int main()
     string name = "Christopher Duong"; // my name
     string date = "5/10/20"; //date due
     
-    int magicArrayRow1[COLS], magicArrayRow2[COLS], magicArrayRow3[COLS];
+    int magicArryRow1[COLS], magicArryRow2[COLS], magicArryRow3[COLS];
     char yes = 'y';//character to continue if the user wants
     
     do {//loop to see if user wants to continue
-        fillArray(magicArrayRow1, magicArrayRow2, magicArrayRow3, COLS); // ask for fillArray function
-        showArray(magicArrayRow1, magicArrayRow2, magicArrayRow3, COLS); // ask for showArray function
-        if (isMagicSquare(magicArrayRow1, magicArrayRow2, magicArrayRow3, COLS))
+        fillArray(magicArryRow1, magicArryRow2, magicArryRow3, COLS); // ask for fillArray function
+        showArray(magicArryRow1, magicArryRow2, magicArryRow3, COLS); // ask for showArray function
+        if (isMagicSquare(magicArryRow1, magicArryRow2, magicArryRow3, COLS))
         {// displayed when paramenteres fit
             cout << "This is a Lo Shu magic square." << endl;
         }
@@ -43,9 +43,7 @@ int main()
         cin >> yes;
         
     } while (yes == 'y' || yes == 'Y');
-    cout << "PROGRAMMER: " << name << endl; //my name
-    cout << "CMSC140 Project: " << '5' << endl; //assignement number
-    cout << "Due Date: " << date << endl; //assignement due date
+    cout << "PROGRAMMER: " << name << endl << "CMSC140 Project: " << '5' << endl << "Due Date: " << date << endl; //assignement stuff due date
 }
 // Getting 3 inputs for wach array
 void fillArray(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size)
