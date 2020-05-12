@@ -1,14 +1,4 @@
-/*
-* Class: CMSC140
-* Instructor: Sandro Fouche
-* Project 5
-* Description: The Magic box where all the lines have to equal the same sum in the end.
-* Due Date: 5/10/20
-* I pledge that I have completed the programming assignment independently.
-  I have not copied the code from a student or any source.
-  I have not given my code to any student.
-  Print your Name here: Christopher Duong
-*/
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -17,7 +7,6 @@
 using namespace std;
 
 // global const int
-const int ROWS = 3;  // The number of rows in the array
 const int COLS = 3;  // The number of columns in the array
 const int MIN = 1;  // The value of the smallest number
 const int MAX = 9;  // The value of the largest number
